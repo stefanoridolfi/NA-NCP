@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<edit-config> <target> <candidate/> </target>
+
+  <config>
+<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+
+  <interface>
+        <name>GigabitEthernet2.1</name>
+        <description>giga 2.1 test description with netconf-console 1 !</description>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+         </interface>
+</interfaces>
+
+</config>
+
+</edit-config>

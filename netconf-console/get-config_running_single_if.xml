@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<get-config>
+
+<source> <running/></source>
+
+<filter>
+<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+
+  <interface>
+        <name>GigabitEthernet2.1</name>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+         </interface>
+</interfaces>
+</filter>
+</get-config>
